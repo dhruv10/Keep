@@ -31,32 +31,3 @@ export const getters = {
         return getters.list;
     }
 }
-
-// import Vue from 'vue'
-// import Vuex from 'vuex';
-
-// Vue.use(Vuex)
-
-
-// export const store = new Vuex.Store({
-//     state: {
-//         counter: 0,
-//         list: []
-//     },
-//     mutations: {
-//         addTodo(state, {text}) {
-//             state.list.push({
-//                 text
-//             })
-//             console.log('State list: ', state.list)
-//         },
-//         increment(state) {
-//             state.counter++;
-//         }
-//     },
-//     actions: {
-//         add(context) {
-//             context.commit('add')
-//         }
-//     }
-// })
