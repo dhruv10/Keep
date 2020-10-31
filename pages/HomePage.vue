@@ -9,9 +9,9 @@
     <div class="main-content">
       <span>Notes that you add appear here</span>
       <div>
-          <!-- <ul v-for="(key, item) in items" :key="item.id">
-              <li>Task 1</li>
-          </ul> -->
+         <ul v-for="(key, item) in items" :key="item.id">
+            <li>Task 1</li>
+         </ul>
       </div>
     </div>
   </div>
@@ -25,7 +25,8 @@ export default {
   data() {
     return {
       text: null,
-      items: []
+      items: [],
+      randomTest: [],
     }
   },
   computed: mapState(['list', 'counter']),
